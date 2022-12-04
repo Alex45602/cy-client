@@ -15,7 +15,7 @@ namespace CyberdropDownloader.Tests
 		public async Task OneTimeSetUp()
 		{
 			_webScraper = new WebScraper();
-			await _webScraper.LoadAlbumAsync("https://cyberdrop.me/a/0ezUfnys");
+        await _webScraper.LoadAlbumAsync("https://cyberdrop.me/a/O3C69ndf");
 		}
 
 		[Test, Order(1)]
